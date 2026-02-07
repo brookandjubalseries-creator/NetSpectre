@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>NetSpectre.Crafting</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="NetSpectre.Crafting.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SharpPcap" />
+    <PackageReference Include="PacketDotNet" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetSpectre.Core\NetSpectre.Core.csproj" />
+  </ItemGroup>
+</Project>

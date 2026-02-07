@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NetSpectre</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <!-- <ApplicationIcon>Resources\icon.ico</ApplicationIcon> -->
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <PackageReference Include="System.Reactive" />
+    <PackageReference Include="WPFHexaEditor" />
+    <PackageReference Include="SkiaSharp.Views.WPF" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetSpectre.Core\NetSpectre.Core.csproj" />
+    <ProjectReference Include="..\NetSpectre.Capture\NetSpectre.Capture.csproj" />
+    <ProjectReference Include="..\NetSpectre.Detection\NetSpectre.Detection.csproj" />
+    <ProjectReference Include="..\NetSpectre.Crafting\NetSpectre.Crafting.csproj" />
+    <ProjectReference Include="..\NetSpectre.Visualization\NetSpectre.Visualization.csproj" />
+  </ItemGroup>
+</Project>

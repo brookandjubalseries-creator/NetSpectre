@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>NetSpectre.Capture</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SharpPcap" />
+    <PackageReference Include="PacketDotNet" />
+    <PackageReference Include="System.Reactive" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetSpectre.Core\NetSpectre.Core.csproj" />
+  </ItemGroup>
+</Project>

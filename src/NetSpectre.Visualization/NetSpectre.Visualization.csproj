@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>NetSpectre.Visualization</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" />
+    <PackageReference Include="SkiaSharp.Views.WPF" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetSpectre.Core\NetSpectre.Core.csproj" />
+  </ItemGroup>
+</Project>

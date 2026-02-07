@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>NetSpectre.Detection</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="NetSpectre.Detection.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetSpectre.Core\NetSpectre.Core.csproj" />
+  </ItemGroup>
+</Project>
